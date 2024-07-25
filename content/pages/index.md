@@ -11,7 +11,7 @@ backgroundImage:
   opacity: 75
 sections:
   - elementId: ''
-    colors: colors-d
+    colors: colors-b
     backgroundSize: full
     title: 'India energy analytics model. '
     subtitle: >-
