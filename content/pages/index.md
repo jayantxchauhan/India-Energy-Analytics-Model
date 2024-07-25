@@ -21,7 +21,7 @@ sections:
     styles:
       self:
         height: auto
-        width: wide
+        width: full
         margin:
           - mt-0
           - mb-0
@@ -35,6 +35,8 @@ sections:
         alignItems: center
         justifyContent: center
         flexDirection: row-reverse
+        borderRadius: large
+        borderStyle: double
       title:
         textAlign: left
       subtitle:
