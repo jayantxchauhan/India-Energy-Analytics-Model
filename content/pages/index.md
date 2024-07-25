@@ -20,7 +20,7 @@ sections:
       continue to scroll down to see more deta
     styles:
       self:
-        height: screen
+        height: auto
         width: full
         margin:
           - mt-0
