@@ -18,11 +18,7 @@ sections:
     subtitle: >-
       This is my —I’m sharing it all this with ya’ll to impress you with all
       the hard work I’ve done in the past few years. Once you’re impressed, you
-<<<<<<< HEAD
       can continue to scroll down to see more details and credentials about me and manipulate accordingly.
-=======
-      can continue to scroll down to see more details and credentials about me. this is right.
->>>>>>> f27f8a0aedc0dabb17581edb5c8521ac1665c16d
     styles:
       self:
         height: auto
