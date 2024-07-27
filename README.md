@@ -1,4 +1,4 @@
-# Netlify Developer Portfolio Starter (auto-annotated)
+# India energy analytics and model
 
 ![Developer Portfolio](https://assets.stackbit.com/docs/personal-nextjs-starter-thumb.png)
 
