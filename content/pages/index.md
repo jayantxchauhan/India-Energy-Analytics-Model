@@ -83,7 +83,7 @@ sections:
         justifyContent: flex-end
     subtitle: ANALYSIS
   - type: FeaturedProjectsSection
-    subtitle: 'Projects:'
+    subtitle: 'PREDICTIONS  :)'
     actions:
       - type: Link
         label: See all projects
