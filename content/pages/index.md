@@ -119,6 +119,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: center
+    title: 'PREDICTIONS  :)'
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
