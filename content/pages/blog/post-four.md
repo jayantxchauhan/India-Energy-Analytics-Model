@@ -2,7 +2,7 @@
 type: PostLayout
 title: GRID - INDIA
 colors: colors-a
-date: '2024-02-06'
+date: '2023-06-06'
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
