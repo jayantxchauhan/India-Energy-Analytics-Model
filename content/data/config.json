@@ -50,12 +50,6 @@
             },
             {
                 "type": "Link",
-                "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
-                "altText": ""
-            },
-            {
-                "type": "Link",
                 "label": "FINDINGS",
                 "url": "/blog",
                 "altText": ""
