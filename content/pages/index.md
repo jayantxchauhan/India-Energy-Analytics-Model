@@ -82,6 +82,7 @@ sections:
       actions:
         justifyContent: flex-end
     subtitle: ''
+    title: 'ANALYSIS :)'
   - type: FeaturedProjectsSection
     subtitle: ''
     actions:
