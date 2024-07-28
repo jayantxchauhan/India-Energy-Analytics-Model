@@ -14,10 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: 'India energy analytics model. '
-    subtitle: >-
-      This is my —I’m sharing it all this with ya’ll to impress you with all the
-      hard work I’ve done in the past few years. Once you’re impressed, you can
-      continue to scroll down to see more deta
+    subtitle: ''
     styles:
       self:
         height: auto
