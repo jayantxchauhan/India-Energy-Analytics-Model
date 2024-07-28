@@ -2,7 +2,7 @@
 type: PostLayout
 title: 'central electricity authority '
 colors: colors-a
-date: '2024-05-02'
+date: ''
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
