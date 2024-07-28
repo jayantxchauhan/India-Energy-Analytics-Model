@@ -31,10 +31,7 @@ sections:
       role of renewable energy sources. The ultimate goal is to generate
       actionable insights that will support policymakers, businesses, and
       researchers in making data-driven decisions to enhance energy efficiency,
-      reduce carbon footprints, and promote sustainable growth.Through this
-      project, we hope to contribute to the broader dialogue on energy
-      management and sustainability, offering valuable perspectives that will
-      help shape India's energy future.
+      reduce carbon footprints, and promote sustainable growth.
     styles:
       self:
         height: auto
