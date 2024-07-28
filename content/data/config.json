@@ -60,7 +60,7 @@
             },
             {
                 "type": "Link",
-                "label": "Learn more",
+                "label": "FINDINGS",
                 "altText": "",
                 "url": "https://anveshaks.netlify.app/blog/",
                 "showIcon": false,
