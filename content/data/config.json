@@ -50,12 +50,6 @@
             },
             {
                 "type": "Link",
-                "label": "FINDINGS",
-                "url": "/blog",
-                "altText": ""
-            },
-            {
-                "type": "Link",
                 "label": "GITHUB",
                 "altText": "",
                 "url": "https://github.com/jayantxchauhan/India-Energy-Analytics-Model",
