@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: 'India energy analytics model. '
-    subtitle: ' Our data analysis project aims to delve into India''s energy consumption patterns, uncovering insights that will drive more informed and strategic decisions for the future.This project utilizes comprehensive data sets from various sources, including government reports, industry databases, and energy consumption surveys. By applying advanced analytical techniques and leveraging cutting-edge tools, we aim to provide a detailed assessment of energy usage trends across different sectors—residential, industrial, and transportation.Our analysis will focus on key aspects such as regional consumption disparities, the impact of policy changes, and the role of renewable energy sources. The ultimate goal is to generate actionable insights that will support policymakers, businesses, and researchers in making data-driven decisions to enhance energy efficiency, reduce carbon footprints, and promote sustainable growth.'
+    subtitle: ' Our data analysis project aims to delve into India''s energy consumption patterns, uncovering insights that will drive more informed and strategic decisions for the future.This project utilizes comprehensive data sets from various sources, including government reports, industry databases, and energy consumption surveys. The ultimate goal is to generate actionable insights that will support policymakers, businesses, and researchers in making data-driven decisions to enhance energy efficiency, reduce carbon footprints, and promote sustainable growth.'
     styles:
       self:
         height: auto
