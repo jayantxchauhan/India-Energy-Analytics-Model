@@ -35,7 +35,7 @@ sections:
         borderRadius: large
         borderStyle: double
       title:
-        textAlign: left
+        textAlign: center
       subtitle:
         textAlign: center
       text:
