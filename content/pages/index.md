@@ -111,7 +111,7 @@ sections:
         justifyContent: center
     title: 'PREDICTIONS  :)'
   - type: FeaturedPostsSection
-    title: 'Posts:'
+    title: 'DATASETS:)'
     actions:
       - type: Link
         label: See all posts
