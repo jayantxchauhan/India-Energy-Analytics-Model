@@ -81,7 +81,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: DATASETS
+    subtitle: ANALYSIS
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
