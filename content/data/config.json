@@ -47,16 +47,6 @@
                 "label": "ABOUT US",
                 "url": "/info",
                 "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "GITHUB",
-                "altText": "",
-                "url": "https://github.com/jayantxchauhan/India-Energy-Analytics-Model",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
             }
         ],
         "contacts": {
