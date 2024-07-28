@@ -81,7 +81,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: ANALYSIS
+    subtitle: ''
   - type: FeaturedProjectsSection
     subtitle: ''
     actions:
