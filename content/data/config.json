@@ -5,12 +5,12 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "ANVESHAKS",
         "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
+                "label": "ABOUT US",
                 "url": "/info"
             },
             {
@@ -20,18 +20,11 @@
             },
             {
                 "type": "Link",
-                "label": "Blog",
+                "label": "FINDINGS",
                 "url": "/blog"
             }
         ],
         "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "twitter"
-            },
             {
                 "type": "Social",
                 "altText": "GitHub",
@@ -51,33 +44,15 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
+                "label": "ABOUT US",
                 "url": "/info",
                 "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
             }
         ],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
+            "phoneNumber": "",
             "phoneAltText": "My phone number",
             "email": "thisismyemail.@myemail.me",
             "emailAltText": "My email",
