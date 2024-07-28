@@ -47,6 +47,26 @@
                 "label": "ABOUT US",
                 "url": "/info",
                 "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "GITHUB",
+                "altText": "",
+                "url": "https://github.com/jayantxchauhan/India-Energy-Analytics-Model",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "FINDINGS",
+                "altText": "",
+                "url": "https://anveshaks.netlify.app/blog/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "contacts": {
@@ -54,9 +74,9 @@
             "title": "Contact details",
             "phoneNumber": "",
             "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
+            "email": "jayantchauhan2005@gmail.com",
+            "emailAltText": "",
+            "address": "NEW DELHI, INDIA.",
             "addressAltText": "My address"
         },
         "copyrightText": "Powered by [Netlify](https://www.netlify.com/platform/)",
