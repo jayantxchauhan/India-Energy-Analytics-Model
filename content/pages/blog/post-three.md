@@ -2,7 +2,7 @@
 type: PostLayout
 title: MINISTRY OF POWER - GOVT OF INDIA
 colors: colors-b
-date: '2023-06-06'
+date: ''
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
