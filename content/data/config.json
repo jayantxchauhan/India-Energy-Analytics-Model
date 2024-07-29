@@ -5,12 +5,12 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "ANVESHAKS",
         "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
+                "label": "ABOUT US",
                 "url": "/info"
             },
             {
@@ -20,18 +20,11 @@
             },
             {
                 "type": "Link",
-                "label": "Blog",
+                "label": "FINDINGS",
                 "url": "/blog"
             }
         ],
         "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "twitter"
-            },
             {
                 "type": "Social",
                 "altText": "GitHub",
@@ -51,37 +44,39 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
+                "label": "ABOUT US",
                 "url": "/info",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
-                "altText": ""
+                "label": "GITHUB",
+                "altText": "",
+                "url": "https://github.com/jayantxchauhan/India-Energy-Analytics-Model",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             },
             {
                 "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
+                "label": "FINDINGS",
+                "altText": "",
+                "url": "https://anveshaks.netlify.app/blog/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
+            "phoneNumber": "",
             "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
+            "email": "jayantchauhan2005@gmail.com",
+            "emailAltText": "",
+            "address": "NEW DELHI, INDIA.",
             "addressAltText": "My address"
         },
         "copyrightText": "Powered by [Netlify](https://www.netlify.com/platform/)",
