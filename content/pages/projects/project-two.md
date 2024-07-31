@@ -32,6 +32,10 @@ import matplotlib.pyplot as plot
 
 df=pd.read\_csv(r'C:/Users/Sumit/OneDrive/Documents/GITHUB IBM DA/India-Energy-Analytics-Model/India\_monthly\_data.csv')
 
+|
+
+|
+
 electricity = df\["IDY.PRD.OEA.ELY"]
 
 year= df.yyyymmdf\['Year'] = df\['yyyymm'] // 100
@@ -53,6 +57,10 @@ ap=ap.reset\_index(drop=True)
 ap=ap.drop(index=10)
 
 print(ap)
+
+|
+
+|
 
 plt.figure(figsize=(10, 6))
 
