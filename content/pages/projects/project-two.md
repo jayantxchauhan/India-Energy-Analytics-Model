@@ -6,7 +6,13 @@ date: '2021-12-20'
 client: Awesome client
 description: >-
   The analysis consists of electricity production in India in one year. Analysis
-  is represented in bar graph
+  is represented in bar graph.In analyzing India's energy production over the
+  past year, it’s evident that the country relies heavily on coal, while also
+  making significant strides in renewable sources like solar and wind. The
+  energy mix showcases a transition towards greener alternatives, though
+  challenges remain with supply and infrastructure. Government initiatives and
+  technological advancements are shaping the future landscape, aiming to balance
+  growth with environmental sustainability and economic impact.
 featuredImage:
   type: ImageBlock
   url: /images/bg2.jpg
