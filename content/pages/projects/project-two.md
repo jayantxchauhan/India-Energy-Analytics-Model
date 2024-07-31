@@ -17,3 +17,34 @@ media:
   elementId: ''
 ---
 code
+
+
+
+
+
+electricity = df\["IDY.PRD.OEA.ELY"]
+
+year= df.yyyymmdf\['Year'] = df\['yyyymm'] // 100
+
+df\['Month'] = df\['yyyymm'] % 100
+
+df\['Financial\_Year'] = df.apply(  
+
+  lambda row: f"{row\['Year']}-{row\['Year'] + 1}" if row\['Month'] >= 4 else f"{row\['Year'] - 1}-{row\['Year']}",    axis=1)
+
+ap = df.groupby('Financial\_Year')\['IDY.PRD.OEA.ELY'].sum().reset\_index()
+
+ap.columns = \['Financial\_Year', 'Total\_Electricity\_Production']
+print(ap)
+
+ap=ap.drop(index=range(0, 16))
+ap=ap.reset\_index(drop=True)
+
+ap=ap.drop(index=10)
+
+print(ap)
+
+
+
+
+
