@@ -20,6 +20,15 @@ media:
 ---
 code
 
+import numpy as ny
+
+import pandas as py
+
+import matplotlib.pyplot as plot
+
+df=pd.read\_csv(r'C:/Users/Sumit/OneDrive/Documents/GITHUB IBM DA/India-Energy-Analytics-Model/India\_monthly\_data.csv')
+
+
 electricity = df\["IDY.PRD.OEA.ELY"]
 
 year= df.yyyymmdf\['Year'] = df\['yyyymm'] // 100
@@ -57,4 +66,3 @@ plt.xticks(rotation=45, ha='right')
 plt.tight\_layout()
 
 plt.show()
-
