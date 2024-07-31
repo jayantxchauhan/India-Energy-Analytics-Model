@@ -26,9 +26,9 @@ import pandas as py
 
 import matplotlib.pyplot as plot
 
+|
 
-
-
+|
 
 df=pd.read\_csv(r'C:/Users/Sumit/OneDrive/Documents/GITHUB IBM DA/India-Energy-Analytics-Model/India\_monthly\_data.csv')
 
