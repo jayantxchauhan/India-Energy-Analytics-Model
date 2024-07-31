@@ -18,9 +18,7 @@ media:
   caption: Caption of the image
   elementId: ''
 ---
-JUPYTER NOTEBOOK PROGRAM
-
-
+\<div style="text-align: center">JUPYTER NOTEBOOK PROGRAM\</div>
 
 import numpy as ny
 
