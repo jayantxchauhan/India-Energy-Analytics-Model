@@ -4,7 +4,9 @@ title: ANALYSIS 1
 colors: colors-a
 date: '2021-12-20'
 client: Awesome client
-description: the analysis consists of electricity production in india in one year
+description: >-
+  the analysis consists of electricity production in India in one year. analysis
+  is represented in bar graph
 featuredImage:
   type: ImageBlock
   url: /images/bg2.jpg
