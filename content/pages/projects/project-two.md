@@ -18,6 +18,39 @@ media:
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
+bottomSections:
+  - type: QuoteSection
+    quote: >
+
+
+      it’s evident that the country relies heavily on coal, while also making
+      significant strides in renewable sources like solar and wind. The energy
+      mix showcases a transition towards greener alternatives, though challenges
+      remain with supply and infrastructure. Government initiatives and
+      technological advancements are shaping the future landscape, aiming to
+      balance growth with environmental sustainability and economic impact.
+    name: Johnna Doe
+    title: Product Marketing Manager at Acme
+    colors: colors-f
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-36
+          - pl-4
+          - pr-4
+        justifyContent: center
+      quote:
+        textAlign: center
+      name:
+        fontWeight": 500
+        textAlign: center
+      title:
+        fontWeight": 400
+        textAlign: center
 ---
 ```
                          JUPYTER NOTEBOOK PROGRAM
