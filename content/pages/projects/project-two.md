@@ -18,17 +18,13 @@ media:
 ---
 code
 
-
-
-
-
 electricity = df\["IDY.PRD.OEA.ELY"]
 
 year= df.yyyymmdf\['Year'] = df\['yyyymm'] // 100
 
 df\['Month'] = df\['yyyymm'] % 100
 
-df\['Financial\_Year'] = df.apply(  
+df\['Financial\_Year'] = df.apply( 
 
   lambda row: f"{row\['Year']}-{row\['Year'] + 1}" if row\['Month'] >= 4 else f"{row\['Year'] - 1}-{row\['Year']}",    axis=1)
 
@@ -44,7 +40,19 @@ ap=ap.drop(index=10)
 
 print(ap)
 
+plt.figure(figsize=(10, 6))
 
+plt.bar(ap\['Financial\_Year'], ap\['Total\_Electricity\_Production'], color='skyblue', edgecolor='black')
 
+plt.xlabel('Financial Year')
 
+plt.ylabel('Total Electricity Production in Million kWh')
+
+plt.title('Total Electricity Production per Financial Year')
+
+plt.xticks(rotation=45, ha='right')
+
+plt.tight\_layout()
+
+plt.show()
 
