@@ -11,7 +11,7 @@ featuredImage:
   altText: Project thumbnail image
 media:
   type: ImageBlock
-  url: /images/Snapchat-57632016.jpg
+  url: /images/Screenshot (85).png
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
