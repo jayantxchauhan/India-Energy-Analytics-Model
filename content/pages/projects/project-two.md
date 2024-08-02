@@ -20,64 +20,74 @@ media:
   elementId: ''
 bottomSections: []
 ---
-```
-                         JUPYTER NOTEBOOK PROGRAM
-```
+                            JUPYTER NOTEBOOK PROGRAM
 
-import numpy as ny
+import pandas as pd
 
-import pandas as py
+import numpy as np
 
-import matplotlib.pyplot as plot
+import matplotlib.pyplot as plt 
 
-|
+ from sklearn.model\_selection
 
-|
+ import train\_test\_split
 
-df=pd.read\_csv(r'C:/Users/Sumit/OneDrive/Documents/GITHUB IBM DA/India-Energy-Analytics-Model/India\_monthly\_data.csv')
+from sklearn.linear\_model
 
-|
+import LinearRegressionfrom sklearn.metrics
 
-|
+import mean\_squared\_error
 
-electricity = df\["IDY.PRD.OEA.ELY"]
+data = pd.read\_csv('/Users/stone/Documents/GitHub/India-Energy-Analytics-Model/Average\_Elecricity\_Cost.csv')
 
-year= df.yyyymmdf\['Year'] = df\['yyyymm'] // 100
+data.set\_index('Year', inplace=True)
 
-df\['Month'] = df\['yyyymm'] % 100
+X = data.index.values.reshape(-1, 1)  # Features (Year)
 
-df\['Financial\_Year'] = df.apply( 
+y = data\['Average Electricity Cost'].values  # Target variable
 
-  lambda row: f"{row\['Year']}-{row\['Year'] + 1}" if row\['Month'] >= 4 else f"{row\['Year'] - 1}-{row\['Year']}",    axis=1)
+X\_train, X\_test, y\_train, y\_test = train\_test\_split(X, y, test\_size=0.2, random\_state=42)
 
-ap = df.groupby('Financial\_Year')\['IDY.PRD.OEA.ELY'].sum().reset\_index()
+\# Creating a linear regression model
 
-ap.columns = \['Financial\_Year', 'Total\_Electricity\_Production']
-print(ap)
+model = LinearRegression()
 
-ap=ap.drop(index=range(0, 16))
-ap=ap.reset\_index(drop=True)
+\# Fitting the model to the training data
 
-ap=ap.drop(index=10)
+model.fit(X\_train, y\_train)
 
-print(ap)
+\# Making predictions on the testing data
 
-|
+y\_pred = model.predict(X\_test)
 
-|
+\# Evaluating the model
 
-plt.figure(figsize=(10, 6))
+mse = mean\_squared\_error(y\_test, y\_pred)print('Mean Squared Error:', mse)
 
-plt.bar(ap\['Financial\_Year'], ap\['Total\_Electricity\_Production'], color='skyblue', edgecolor='black')
+\#Visualizing the data and predictions
 
-plt.xlabel('Financial Year')
+plt.scatter(X, y, label='Actual')
 
-plt.ylabel('Total Electricity Production in Million kWh')
+plt.plot(X\_test, y\_pred, color='red', label='Predicted')
 
-plt.title('Total Electricity Production per Financial Year')
+plt.xlabel('Year')plt.ylabel('Average Electricity Cost')
 
-plt.xticks(rotation=45, ha='right')
-
-plt.tight\_layout()
+plt.legend()
 
 plt.show()
+
+\#Visualizing the data and predictions
+
+plt.scatter(X, y, label='Actual')
+
+plt.plot(X\_test, y\_pred, color='red', label='Predicted')
+
+plt.xlabel('Year')
+
+plt.ylabel('Average Electricity Cost')
+
+plt.legend()
+
+plt.show()
+
+
