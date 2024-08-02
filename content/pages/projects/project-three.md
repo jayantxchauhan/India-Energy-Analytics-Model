@@ -6,7 +6,7 @@ date: '2022-01-22'
 client: Awesome client
 description: >-
   The analysis consists of renewable and non renewable sources of electricity
-  including hydro , wind, solar , coal,
+  including hydro , wind, solar , coal , Natural gas.
 featuredImage:
   type: ImageBlock
   url: /images/bg3.jpg
