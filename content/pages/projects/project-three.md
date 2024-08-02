@@ -17,7 +17,7 @@ media:
   altText: Project image
   url: /images/Screenshot (86).png
 ---
-\<div style="text-align: center">JUPYTER NOTEBOOK PROGRAM\</div>
+                                                            JUPYTER NOTEBOOK PROGRAM
 
 import pandas as pd
 
