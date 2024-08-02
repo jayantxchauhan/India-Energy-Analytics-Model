@@ -17,7 +17,9 @@ media:
   altText: Project image
   url: /images/Screenshot (86).png
 ---
-                                                            JUPYTER NOTEBOOK PROGRAM
+```
+                                        JUPYTER NOTEBOOK PROGRAM
+```
 
 import pandas as pd
 
