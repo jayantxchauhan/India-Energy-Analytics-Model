@@ -1,0 +1,27 @@
+{
+    "model": "ImageBlock",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "image",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "photo"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "url": {
+                    "$$ref": "stackbit_asset_id:static:public/images/Screenshot (86).png",
+                    "$$type": "__asset_model"
+                },
+                "altText": "Project image",
+                "caption": null,
+                "elementId": null
+            },
+            "thumbnail": "images/image-block-image-3781.png"
+        }
+    ]
+}
