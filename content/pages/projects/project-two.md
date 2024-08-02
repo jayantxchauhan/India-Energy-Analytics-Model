@@ -14,7 +14,7 @@ featuredImage:
   altText: Project thumbnail image
 media:
   type: ImageBlock
-  url: /images/Screenshot (85).png
+  url: /images/Screenshot 2024-08-03 000742.png
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
