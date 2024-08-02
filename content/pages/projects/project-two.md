@@ -7,7 +7,7 @@ client: Awesome client
 description: >-
   The analysis consists of electricity production in India in one year. Analysis
   is represented in bar graph.In analyzing India's energy production over the
-  past year.
+  past 10 years.
 featuredImage:
   type: ImageBlock
   url: /images/bg2.jpg
