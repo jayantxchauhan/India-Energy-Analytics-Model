@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt  
 
 from sklearn.model\_selection import train\_test\_split
 
-from sklearn.linear\_model 
+from sklearn.linear\_model
 
 import LinearRegressionfrom sklearn.metrics
 
@@ -35,7 +35,9 @@ import mean\_squared\_error
 data = pd.read\_csv('/Users/stone/Documents/GitHub/India-Energy-Analytics-Model/Average\_Elecricity\_Cost.csv')
 
 data.set\_index('Year', inplace=True)
-X = data.index.values.reshape(-1, 1)  # Features (Year)y = data\['Average Electricity Cost'].values  # Target variable
+X = data.index.values.reshape(-1, 1)  # Features (Year)
+
+y = data\['Average Electricity Cost'].values  # Target variable
 X\_train, X\_test, y\_train, y\_test = train\_test\_split(X, y, test\_size=0.2, random\_state=42)
 
 \# Creating a linear regression modelmodel = LinearRegression()
@@ -43,7 +45,6 @@ X\_train, X\_test, y\_train, y\_test = train\_test\_split(X, y, test\_size=0.2, 
 \# Fitting the model to the training data
 
 model.fit(X\_train, y\_train)
-
 
 \# Making predictions on the testing data
 
@@ -55,7 +56,6 @@ mse = mean\_squared\_error(y\_test, y\_pred)
 
 print('Mean Squared Error:', mse)
 
-
 \#Visualizing the data and predictions
 
 plt.scatter(X, y, label='Actual')
@@ -83,6 +83,3 @@ plt.ylabel('Average Electricity Cost')
 plt.legend()
 
 plt.show()
-
-
-
