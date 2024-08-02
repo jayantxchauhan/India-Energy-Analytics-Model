@@ -14,7 +14,9 @@ media:
   url: /images/Screenshot (89).png
   altText: Project image
 ---
-                                         JUPYTER NOTEBOOK PROGRAM
+```
+                            JUPYTER NOTEBOOK PROGRAM
+```
 
 import pandas as pd
 
@@ -38,5 +40,3 @@ plt.title('Electricity Cost Trend')
 plt.grid(True)
 
 plt.show()
-
-
