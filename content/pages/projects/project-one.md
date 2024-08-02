@@ -22,21 +22,67 @@ import pandas as pd
 
 import numpy as np
 
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  
 
-df = pd.read\_csv(r'C:/Users/Sumit/OneDrive/Documents/GITHUB IBM DA/India-Energy-Analytics-Model/Average\_Elecricity\_Cost.csv')
+from sklearn.model\_selection import train\_test\_split
 
-cost = df\["Average Electricity Cost"]
+from sklearn.linear\_model 
 
-year= df.Year
+import LinearRegressionfrom sklearn.metrics
 
-plt.plot(df\['Year'], df\['Average Electricity Cost'], marker='o', linestyle='-')
+import mean\_squared\_error
+
+data = pd.read\_csv('/Users/stone/Documents/GitHub/India-Energy-Analytics-Model/Average\_Elecricity\_Cost.csv')
+
+data.set\_index('Year', inplace=True)
+X = data.index.values.reshape(-1, 1)  # Features (Year)y = data\['Average Electricity Cost'].values  # Target variable
+X\_train, X\_test, y\_train, y\_test = train\_test\_split(X, y, test\_size=0.2, random\_state=42)
+
+\# Creating a linear regression modelmodel = LinearRegression()
+
+\# Fitting the model to the training data
+
+model.fit(X\_train, y\_train)
+
+
+\# Making predictions on the testing data
+
+y\_pred = model.predict(X\_test)
+
+\# Evaluating the model
+
+mse = mean\_squared\_error(y\_test, y\_pred)
+
+print('Mean Squared Error:', mse)
+
+
+\#Visualizing the data and predictions
+
+plt.scatter(X, y, label='Actual')
+
+plt.plot(X\_test, y\_pred, color='red', label='Predicted')
+
 plt.xlabel('Year')
 
-plt.ylabel('Electricity Cost')
+plt.ylabel('Average Electricity Cost')
 
-plt.title('Electricity Cost Trend')
-
-plt.grid(True)
+plt.legend()
 
 plt.show()
+
+\#Visualizing the data and predictions
+
+plt.scatter(X, y, label='Actual')
+
+plt.plot(X\_test, y\_pred, color='red', label='Predicted')
+
+plt.xlabel('Year')
+
+plt.ylabel('Average Electricity Cost')
+
+plt.legend()
+
+plt.show()
+
+
+
