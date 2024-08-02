@@ -7,7 +7,7 @@ client: Awesome client
 description: >-
   The analysis consists of renewable and non renewable sources of electricity
   including hydro , wind, solar , coal , Natural gas. its share in the total
-  energy  production in india of past 
+  energy  production in india of past 5 years
 featuredImage:
   type: ImageBlock
   url: /images/bg3.jpg
