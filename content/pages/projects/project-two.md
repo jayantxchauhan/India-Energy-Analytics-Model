@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: ANALYSIS 1
+title: PREDICTION 2
 colors: colors-a
 date: '2021-12-20'
 client: Awesome client
