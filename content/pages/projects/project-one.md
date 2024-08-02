@@ -4,7 +4,7 @@ title: ANALYSIS 3
 colors: colors-a
 date: '2021-10-15'
 client: Awesome client
-description: 'The analysis consists of the electricty '
+description: 'The analysis consists of the electricity prices of past 10  '
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
