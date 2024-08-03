@@ -122,4 +122,7 @@ Evaluation of potential benefits in terms of cost, security, and access.
 ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
 
 
+![Developer Portfolio](img/energy.jpg)
+
+
 
