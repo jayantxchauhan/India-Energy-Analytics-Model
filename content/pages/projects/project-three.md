@@ -1,29 +1,64 @@
 ---
 type: ProjectLayout
-title: One more cool project
+title: ANALYSIS 2
 colors: colors-a
 date: '2022-01-22'
 client: Awesome client
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
+  The analysis consists of renewable and non renewable sources of electricity
+  including hydro , wind, solar , coal , Natural gas. its share in the total
+  energy  production in india of past 5 years
 featuredImage:
   type: ImageBlock
   url: /images/bg3.jpg
   altText: Project thumbnail image
 media:
   type: ImageBlock
-  url: /images/bg3.jpg
   altText: Project image
+  url: /images/Screenshot (86).png
 ---
+```
+                           JUPYTER NOTEBOOK PROGRAM
+```
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+import pandas as pd
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+import matplotlib.pyplot as plt
+\# Create a dictionary with all your data
 
-> “Everybody should learn to program a computer, because it teaches you how to think.”
+data = {    'Date': \['2018-12-31', '2019-12-31', '2020-12-31', '2021-12-31', '2022-12-31', '2023-12-31'],    'SolarGen': \[None, 43219.0000, 53054.0000, 65292.0000, 88956.0000, 105399.8670],    'WindGen': \[56199.000, 57428.000, 53237.000, 64328.000, 69223.000, 79448.989],    'HydroGen': \[136905.00000, 159799.00000, 164436.00000, 162418.00000, 175381.00000, 151236.15665],    'NuclearGen': \[34240.0000, 37241.0000, 39480.0000, 39396.0000, 43260.0000, 48953.4300],    'CoalGen': \[85660.0000, 922684.0000, 877524.0000, 1000573.0000, 1096671.0000, 1258929.0000]}
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+df = pd.DataFrame(data)
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+df\['Date'] = pd.to\_datetime(df\['Date'])
+\# Fill any missing data points with 0 to ensure the stack plot works
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+df = df.fillna(0)
+
+plt.figure(figsize=(12, 8))
+
+plt.stackplot(df\['Date'],    
+
+df\['SolarGen'],            
+
+  df\['WindGen'],            
+
+df\['HydroGen'],    
+
+ df\['NuclearGen'],          
+
+ df\['CoalGen'],              
+
+labels=\['Solar Generation', 'Wind Generation', 'Hydro Generation', 'Nuclear Generation', 'Coal Generation'],           
+
+colors=\['#ff9999','#66b3ff','#99ff99','#ffcc99','#c2c2f0'])
+
+plt.title('total Energy Generation Over Time in India')
+
+plt.xlabel('Date')plt.ylabel('Energy Generation')
+
+plt.legend(loc='upper left')
+
+plt.grid(True)
+
+plt.show()
