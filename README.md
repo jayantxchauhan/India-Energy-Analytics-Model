@@ -28,7 +28,7 @@ Renewable Energy Types: Detailed data on the contributions of different renewabl
 Greenhouse Gas Emissions: Associated emissions data.
 Economic Metrics: Energy costs, investment data, and pricing trends.
 
-## ⚙️ Tools for analysis:-
+## ⚙️ Tools for analysis:
 The following tools are used for data analysis:
 
 Python: For data processing, analysis, and visualization (Pandas, NumPy, Matplotlib, Seaborn).
@@ -36,7 +36,6 @@ R: For statistical analysis and modeling.
 Excel: For data aggregation and preliminary analysis.
 Tableau or Power BI: For interactive visualizations and dashboards.
 GIS Tools: For spatial analysis of energy infrastructure.
-
 
 Hypothesis Development: 
 In order to increase energy security and availability in India, the initiative postulated that a larger proportion of renewable energy sources would dramatically cut greenhouse gas emissions and energy costs. Furthermore, it asserts that a move to renewable energy sources would eventually result in more stable and possibly even cheaper energy costs.
@@ -56,7 +55,7 @@ Descriptive Analysis:
 Perform descriptive statistical analysis to understand the distribution and variability of pollutants.
 Visualize temporal trends (daily, monthly, seasonal) and spatial distributions using charts and maps
 
-## 📂 Source Analysis 
+## 📂 Source Analysis: 
 Analyze the overall trends in energy production and the share of renewable and non-renewable sources.
 
 Break down renewable energy into types and analyze their contributions.
