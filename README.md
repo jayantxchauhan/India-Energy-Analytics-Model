@@ -3,14 +3,14 @@
 ![Developer Portfolio](img/anveshaks.png)
 
 
-⚡️ SDG 7
+## ⚡️ SDG 7
 
 With a focus on energy equity, security, and affordability, this project aims to support India's sustainable energy development while also effectively advancing SDG 7, which calls for universal access to modern, affordable, sustainable, and reliable energy.
 
 
 
 
-🔎 Problem Identification: 
+## 🔎 Problem Identification: 
 
 India faces the challenge of meeting growing energy demands while reducing its carbon footprint. Despite progress in renewable energy adoption, non-renewable sources still dominate the energy mix, leading to significant greenhouse gas emissions and environmental impacts.
 
@@ -19,7 +19,7 @@ India faces the challenge of meeting growing energy demands while reducing its c
 
 
 
-📒📚 Data Collection and Analysis:
+## 📒📚 Data Collection and Analysis:
  📋  The project has utilized data from:
 
 Ministry of Power, Government of India
@@ -51,7 +51,7 @@ Energy costs, investment data, and pricing trends.
 
 
 
-⚒️ ⚙️ Tools for analysis:-
+## ⚒️ ⚙️ Tools for analysis:-
 The following tools are used for data analysis:
 
 🐍 Python: For data processing, analysis, and visualization (matplotlib, numpy, pandas, aur scikit learn).
@@ -63,7 +63,7 @@ The following tools are used for data analysis:
 
 In order to increase energy security and availability in India, the initiative postulated that a larger proportion of renewable energy sources would dramatically cut greenhouse gas emissions and energy costs. Furthermore, it asserts that a move to renewable energy sources would eventually result in more stable and possibly even cheaper energy costs.
 
-🧪 Solution Design: 
+## 🧪 Solution Design: 
 🔧The methodology will include the following steps:
 
 🟦 Data Collection:
@@ -83,7 +83,7 @@ Descriptive Analysis:
 Perform descriptive statistical analysis to understand the distribution and variability of pollutants.
 Visualize temporal trends (daily, monthly, seasonal) and spatial distributions using charts and maps
 
-📂 🔎 Source Analysis 
+## 📂 🔎 Source Analysis 
 
 📎 Analyze the overall trends in energy production and the share of renewable and non-renewable sources.
 
@@ -105,7 +105,7 @@ Compile findings and recommendations into a comprehensive report.
 
 
 
-📊 ✨Visualization: 
+## 📊 ✨Visualization: 
 Comprehensive Analysis: Detailed insights into India's energy production trends and the role of renewables.
 
 🟨 Predictive Models: 
