@@ -56,7 +56,7 @@ Energy costs, investment data, and pricing trends.
 ## ⚒️ ⚙️ Tools for analysis:-
 The following tools are used for data analysis:
 
-🐍 Python: For data processing, analysis, and visualization (matplotlib, numpy, pandas, aur scikit learn).
+🐍 Python: For data processing, analysis, and visualization (matplotlib, numpy, pandas, and scikit learn).
 
 📊 Excel: For data aggregation and preliminary analysis.
 
@@ -123,6 +123,9 @@ Evaluation of potential benefits in terms of cost, security, and access.
 
 
 ![Developer Portfolio](img/energy.jpg)
+
+
+
 
 
 
