@@ -8,6 +8,8 @@
 With a focus on energy equity, security, and affordability, this project aims to support India's sustainable energy development while also effectively advancing SDG 7, which calls for universal access to modern, affordable, sustainable, and reliable energy.
 
 
+![Developer Portfolio](img/sdg.png)
+
 
 
 ## 🔎 Problem Identification: 
