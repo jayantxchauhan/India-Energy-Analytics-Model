@@ -1,4 +1,4 @@
-# India energy analytics and model
+# India energy analytics and model ⚡️⚡️⚡️
 
 ![Developer Portfolio](img/anveshaks.png)
 
