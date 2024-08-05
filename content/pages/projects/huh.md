@@ -3,9 +3,7 @@ type: ProjectLayout
 title: ANALYSIS 3
 date: '2024-08-15'
 client: Awesome client
-description: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+description: THE Analysis consists of average electricity cost of past 12 yeasr
 featuredImage:
   type: ImageBlock
   altText: Project thumbnail image
