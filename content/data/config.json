@@ -32,6 +32,11 @@
             "self": {
                 "width": "full"
             }
+        },
+        "logo": {
+            "type": "ImageBlock",
+            "url": "/images/Screenshot (86).png",
+            "altText": "Project image"
         }
     },
     "footer": {
