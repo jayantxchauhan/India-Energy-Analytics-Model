@@ -3,9 +3,7 @@ type: ProjectLayout
 title: Analysis 1
 date: '2024-08-05'
 client: Awesome client
-description: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+description: The analysis consis
 media:
   type: ImageBlock
   url: /images/Screenshot (85).png
