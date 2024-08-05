@@ -54,7 +54,6 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/projects/project-two.md
       - content/pages/projects/analysis-1.md
       - content/pages/projects/project-three.md
       - content/pages/projects/project-one.md
