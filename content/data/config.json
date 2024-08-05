@@ -10,7 +10,7 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "ABOUT US",
+                "label": "us",
                 "url": "/info"
             },
             {
