@@ -5,7 +5,7 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "ANVESHAKS",
+        "title": "ANVESHAKS ",
         "isTitleVisible": true,
         "primaryLinks": [
             {
@@ -15,13 +15,8 @@
             },
             {
                 "type": "Link",
-                "label": "Projects",
+                "label": "ANALYSIS & PREDICTIONS",
                 "url": "/projects"
-            },
-            {
-                "type": "Link",
-                "label": "FINDINGS",
-                "url": "/blog"
             }
         ],
         "socialLinks": [
@@ -37,6 +32,10 @@
             "self": {
                 "width": "full"
             }
+        },
+        "logo": {
+            "type": "ImageBlock",
+            "altText": "Project image"
         }
     },
     "footer": {
@@ -53,16 +52,6 @@
                 "label": "GITHUB",
                 "altText": "",
                 "url": "https://github.com/jayantxchauhan/India-Energy-Analytics-Model",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
-            },
-            {
-                "type": "Link",
-                "label": "FINDINGS",
-                "altText": "",
-                "url": "https://anveshaks.netlify.app/blog/",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
