@@ -104,5 +104,26 @@ bottomSections:
 ---
 <https://github.com/jayantxchauhan/India-Energy-Analytics-Model/blob/main/POSOCO_data.csv>
 
+**Dataset Name:** POSOCO Data
 
+**Description:**
+The `POSOCO_data.csv` dataset contains detailed records related to India's electricity grid management, as provided by POSOCO (Power System Operation Corporation Limited). The dataset is intended for use in energy analytics and modeling, focusing on various aspects of power system operation and performance.
+
+**Key Features:**
+
+*   **Date and Time:** Timestamps indicating the date and time of each record.
+
+*   **Generation Data:** Information on power generation from various sources, including conventional and renewable energy sources.
+
+*   **Demand Data:** Records of electrical demand or consumption data across different regions or time periods.
+
+*   **Operational Metrics:** Data related to the operational status of the power grid, such as load factors, transmission losses, and system reliability indicators.
+
+*   **Market Data:** Information on electricity market operations, including prices and trading volumes if applicable.
+
+**Purpose:**
+This dataset is useful for analyzing trends in power generation and consumption, assessing grid reliability, and evaluating the performance of the electricity market. It is valuable for researchers, analysts, and policymakers interested in energy systems, grid management, and sustainable energy transitions.
+
+**Source:**
+POSOCO (Power System Operation Corporation Limited), as available through the provided GitHub repository.
 
