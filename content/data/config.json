@@ -4,13 +4,13 @@
     "header": {
         "type": "Header",
         "headerVariant": "variant-c",
-        "isSticky": false,
-        "title": "ANVESHAKS --> IBM SkillsBuild DATA ANALYTICS INTERNSHIP",
+        "isSticky": true,
+        "title": "ANVESHAKS->IBM DATA ANALYTICS SkillsBuild DELIVERABLE    ",
         "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "ABOUT US",
+                "label": "us",
                 "url": "/info"
             },
             {
