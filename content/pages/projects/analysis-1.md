@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Analysis 1
 date: '2024-08-05'
 client: Awesome client
-description: The analysis consis
+description: The analysis consists of total energy production of past 10 years
 media:
   type: ImageBlock
   url: /images/Screenshot (85).png
