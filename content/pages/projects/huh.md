@@ -1,0 +1,27 @@
+---
+type: ProjectLayout
+title: ANALYSIS 3
+date: '2024-08-15'
+client: Awesome client
+description: THE Analysis consists of average electricity cost of past 12 yeasr
+featuredImage:
+  type: ImageBlock
+  altText: Project thumbnail image
+  caption: ''
+  elementId: ''
+media:
+  type: ImageBlock
+  url: /images/Screenshot (89).png
+  altText: Project image
+  caption: Caption of the image
+  elementId: ''
+addTitleSuffix: true
+colors: colors-a
+backgroundImage:
+  type: BackgroundImage
+  url: /images/bg2.jpg
+  backgroundSize: cover
+  backgroundPosition: center
+  backgroundRepeat: no-repeat
+  opacity: 100
+---
