@@ -56,6 +56,7 @@ sections:
     projects:
       - content/pages/projects/analysis-1.md
       - content/pages/projects/project-three.md
+      - content/pages/projects/huh.md
     styles:
       self:
         height: auto
