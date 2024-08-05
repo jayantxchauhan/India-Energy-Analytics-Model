@@ -4,10 +4,7 @@ title: PREDICTION 2
 colors: colors-a
 date: '2021-12-20'
 client: Awesome client
-description: >-
-  The analysis consists of electricity production in India in one year. Analysis
-  is represented in bar graph.In analyzing India's energy production over the
-  past 10 years.
+description: The prediction consists of average electricity prices of future years
 featuredImage:
   type: ImageBlock
   url: /images/bg2.jpg
